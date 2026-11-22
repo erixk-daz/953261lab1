@@ -7,9 +7,16 @@
 //        { "name": "...", "studentId": "...", "favouriteLanguage": "..." }
 //      with status 200 and Content-Type application/json.
 //   3. Any other path must return status 404 with a short HTML message.
-//   4. Commit after each step with a clear message, then push to GitHub.
-
-import http from "node:http";
+//   4. Commit after each step with a clear message, then push to GitHub.``
+// /api/me: JSON
+if (req.method === 'GET' && req.url === '/') {
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.end(`
+    <h1>Hello, I am <YOUR NICKNAME></h1>
+    <p>Student ID: <YOUR STUDENT ID></p>
+  `);
+  return;
+}
 
 const PORT = 3000;
 
