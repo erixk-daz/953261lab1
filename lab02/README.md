@@ -31,7 +31,6 @@ npm test
 ✔ Stretch 9   bestSeller returns the most-ordered item name (0.051416ms)
 ✔ Stretch 10  namesByCategory groups names by category (0.265833ms)
    # Part C
-npm start      
 === Kad Café menu ===
 Thai Iced Tea — 45 THB
 Americano — 55 THB
@@ -44,13 +43,25 @@ Mango Sticky Rice — 80 THB
 Coconut Ice Cream — 40 THB
 
 === Today's orders ===
+A001 Mint — 160 THB
+A002 Nont — 55 THB
+A003 Fah — 250 THB
+A004 Ploy — 145 THB
+A005 Beam — 135 THB
+A006 Kaew — 250 THB
 
-=== Summary ===  # Part D — the daily report
+=== Summary ===
+Orders: 6
+Total sales: 995 THB
+Average order: 165.83 THB
+
+=== Cheapest available ===
+Coconut Ice Cream
 ```
 
 ## My own function (Part D)
 
-_Name of your function, what it returns, and which array methods it uses._
+i used filter to get price from list and 
 
 ## What I learned today
 
