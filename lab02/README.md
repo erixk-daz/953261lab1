@@ -61,7 +61,7 @@ Coconut Ice Cream
 
 ## My own function (Part D)
 
-i used filter to get price from list and 
+i used filter to get list from avalible item and get price from list and collate the price to lowest to high and show the lowest price item
 
 ## What I learned today
 
